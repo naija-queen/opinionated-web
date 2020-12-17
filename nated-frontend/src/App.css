@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+#centered {
+  height: 750px; /* Magic here */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#horizontal-box {
+  column-gap: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: bisque;
+}
+
+#made-by {
+  float: right;
+  padding-right: 10px;
+  display: flex;
+}
